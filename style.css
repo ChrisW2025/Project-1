@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+nav{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
+
+
+
+nav li{
+    list-style-type: none;
+    margin: 20px;
+}
+
 .section1, .section2, .section3, .section4 {
     width: 100%;
     height: 100vh;
@@ -13,17 +42,19 @@
 }
 
 .section1 {
-    background-image:url(images/Plant1.jpeg) ;
+    background-image:url(images/Niagra.webp) ;
 }
 
 .section2 {
-    background-image:url(images/Abstract.jpeg) ;
+    background-image:url(images/Grand-Canyon.webp) ;
+    background-attachment: fixed;
 }
 
 .section3 {
-    background-image:url(images/Pexel1.jpeg) ;
+    background-image:url(images/mount-everest.jpg) ;
 }
 
 .section4 {
-    background-image:url(images/Pexel2.jpeg) ;
+    background-image:url(images/National-Park.webp) ;
+    background-attachment: fixed;
 }
