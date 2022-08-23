@@ -95,9 +95,54 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 #p1{
-    color: rgb(219, 183, 161);
+    color: rgb(255, 255, 255);
+    position:relative;
+    top: 100px;
+    left:5%;
 }
 
 #p2{
     color: rgb(223, 124, 75);
+    background-color:rgba(255, 255, 255, 0.685) ;
+    border: 2px solid orange;
+    position:relative;
+    top: 300px;
+    left:60%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    .header {
+        width: 80%;
+    }
+
+    #p1 {
+        width: 80%;
+        left: 10%;
+    
+    }
+
+    #p2 {
+        width: 80%;
+        left: 10%;
+    }
 }
