@@ -51,10 +51,6 @@ nav li{
     background-attachment: fixed;
 }
 
-.section3 {
-    background-image:url(images/mount-everest.jpg) ;
-}
-
 .section4 {
     background-image:url(images/National-Park.webp) ;
     background-attachment: fixed;
@@ -112,6 +108,46 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
 }
 
+.section3 {
+    background-image:url(images/mount-everest.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    text-align: center;
+    color: purple;
+}
+
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: purple;
+
+}
+
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+    color:purple;
+}
+
+.section3 input::placeholder {
+    text-align: center;
+    color: rgb(199, 140, 151);
+    font-style: italic;
+}
+
+#button {
+    color:white;
+    background-color: purple;
+    font-size: 18px;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
 
 
 
